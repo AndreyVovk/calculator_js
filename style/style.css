@@ -3,10 +3,12 @@
     margin: 0;
     font-family: Comic Sans MS, sans-serif;
 }
-body{
+
+body {
     background-color: #fbf4ee;
 }
-.main_box{
+
+.main_box {
     position: absolute;
     margin-top:5%;
     margin-left: 35%;
@@ -19,26 +21,28 @@ body{
     grid-gap:0.8%;
     grid-auto-rows:15.75%;
 }
-.main_box>div.box {
+
+.button {
     padding: 1em;
     background-color: #F2F2F2;
     
 }
-.main_box>div.box_dark {
+
+.button_palette-dark {
     padding: 1em;
     background-color: #D8D8D8;
-
 }
+
 .main_box>div.form {
     text-align: left;
     margin-top: 0.75%;
     padding-top: 0.6em;
     padding-left: 0.4em;
     background-color: rgb(230, 227, 227);
-    grid-column:1/5; 
-    
+    grid-column:1/5;  
 }
-.main_box>div.box:hover {
+
+.button:hover {
     background-color: #e5e5e5;
 
 }
